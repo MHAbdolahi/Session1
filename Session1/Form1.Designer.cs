@@ -48,14 +48,15 @@
             this.btnZojFard = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.l4 = new System.Windows.Forms.Label();
+            this.l3 = new System.Windows.Forms.Label();
+            this.l2 = new System.Windows.Forms.Label();
+            this.l1 = new System.Windows.Forms.Label();
             this.lblColor = new System.Windows.Forms.Label();
             this.btnStop = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.l1 = new System.Windows.Forms.Label();
-            this.l2 = new System.Windows.Forms.Label();
-            this.l3 = new System.Windows.Forms.Label();
-            this.l4 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -69,6 +70,7 @@
             // 
             // button1
             // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -105,6 +107,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.button3);
@@ -288,6 +291,58 @@
             this.tabPage7.Text = "رنگ بندی";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // l4
+            // 
+            this.l4.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.l4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.l4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l4.ForeColor = System.Drawing.Color.White;
+            this.l4.Location = new System.Drawing.Point(374, 179);
+            this.l4.Name = "l4";
+            this.l4.Size = new System.Drawing.Size(18, 18);
+            this.l4.TabIndex = 8;
+            this.l4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l4.Visible = false;
+            // 
+            // l3
+            // 
+            this.l3.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.l3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.l3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l3.ForeColor = System.Drawing.Color.White;
+            this.l3.Location = new System.Drawing.Point(350, 179);
+            this.l3.Name = "l3";
+            this.l3.Size = new System.Drawing.Size(18, 18);
+            this.l3.TabIndex = 7;
+            this.l3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l3.Visible = false;
+            // 
+            // l2
+            // 
+            this.l2.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.l2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.l2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l2.ForeColor = System.Drawing.Color.White;
+            this.l2.Location = new System.Drawing.Point(326, 179);
+            this.l2.Name = "l2";
+            this.l2.Size = new System.Drawing.Size(18, 18);
+            this.l2.TabIndex = 6;
+            this.l2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l2.Visible = false;
+            // 
+            // l1
+            // 
+            this.l1.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.l1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.l1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l1.ForeColor = System.Drawing.Color.White;
+            this.l1.Location = new System.Drawing.Point(302, 179);
+            this.l1.Name = "l1";
+            this.l1.Size = new System.Drawing.Size(18, 18);
+            this.l1.TabIndex = 5;
+            this.l1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l1.Visible = false;
+            // 
             // lblColor
             // 
             this.lblColor.BackColor = System.Drawing.Color.MediumSeaGreen;
@@ -324,57 +379,16 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // l1
+            // button6
             // 
-            this.l1.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.l1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.l1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l1.ForeColor = System.Drawing.Color.White;
-            this.l1.Location = new System.Drawing.Point(302, 179);
-            this.l1.Name = "l1";
-            this.l1.Size = new System.Drawing.Size(18, 18);
-            this.l1.TabIndex = 5;
-            this.l1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l1.Visible = false;
-            // 
-            // l2
-            // 
-            this.l2.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.l2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.l2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l2.ForeColor = System.Drawing.Color.White;
-            this.l2.Location = new System.Drawing.Point(326, 179);
-            this.l2.Name = "l2";
-            this.l2.Size = new System.Drawing.Size(18, 18);
-            this.l2.TabIndex = 6;
-            this.l2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l2.Visible = false;
-            // 
-            // l3
-            // 
-            this.l3.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.l3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.l3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l3.ForeColor = System.Drawing.Color.White;
-            this.l3.Location = new System.Drawing.Point(350, 179);
-            this.l3.Name = "l3";
-            this.l3.Size = new System.Drawing.Size(18, 18);
-            this.l3.TabIndex = 7;
-            this.l3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l3.Visible = false;
-            // 
-            // l4
-            // 
-            this.l4.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.l4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.l4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l4.ForeColor = System.Drawing.Color.White;
-            this.l4.Location = new System.Drawing.Point(374, 179);
-            this.l4.Name = "l4";
-            this.l4.Size = new System.Drawing.Size(18, 18);
-            this.l4.TabIndex = 8;
-            this.l4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l4.Visible = false;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Location = new System.Drawing.Point(616, 204);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(130, 37);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "صورتی";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
@@ -432,6 +446,7 @@
         private System.Windows.Forms.Label l3;
         private System.Windows.Forms.Label l2;
         private System.Windows.Forms.Label l1;
+        private System.Windows.Forms.Button button6;
     }
 }
 
